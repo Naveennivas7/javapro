@@ -22,6 +22,7 @@ public class basic {
         int b = 5;
         Scanner s = new Scanner(System.in);
         char c = s.next().charAt(0);
+        s.close();
 
         switch (c) {
             case '+':
