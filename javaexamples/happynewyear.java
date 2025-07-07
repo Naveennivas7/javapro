@@ -9,9 +9,9 @@ public class happynewyear {
         try {
             for (int i = countdownSeconds; i >= 1; i-- ) {
                 System.out.println(i + "...");
-                Thread.sleep(1000); // 1000 milliseconds = 1 sec
+                Thread.sleep(1000) ;// 1000 milliseconds = 1 sec
             }
-            System.out.println("🎉🎆 Happy New Year! 🎆🎉");
+            System.out.println("Happy New Year!");
             }
         catch (InterruptedException e) {
             System.out.println("Countdown interrupted!");
